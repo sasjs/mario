@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sasjs/utils/main/src/types/sasjsconfig-schema.json",
+  "streamConfig": {
+    "assetPaths": [
+      "sprites"
+    ],
+    "streamWeb": true,
+    "streamWebFolder": "webv",
+    "webSourcePath": "src"
+  },
+  "defaultTarget": "viya",
+  "targets": [
+    {
+      "name": "viya",
+      "serverUrl": "https://sas.analytium.co.uk",
+      "serverType": "SASVIYA",
+      "appLoc": "/Public/app/mario",
+      "deployConfig": {
+        "deployServicePack": true
+      },
+      "contextName": "SAS Job Execution compute context"
+    },
+    {
+      "name": "sas9",
+      "serverType": "SAS9",
+      "serverUrl": "https://sas.analytium.co.uk:8343",
+      "appLoc": "/Public/app/mario",
+      "buildConfig": {
+        "buildOutputFileName": "mysas9deploy.sas"
+      },
+      "deployConfig": {
+        "deployServicePack": true
+      },
+      "serverName": "SASApp",
+      "repositoryName": "Foundation"
+    }
+  ]
+}

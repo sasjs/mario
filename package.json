@@ -1,0 +1,21 @@
+{
+  "name": "@sasjs/mario",
+  "repository": "https://github.com/sasjs/mario",
+  "version": "1.0.0",
+  "description": "A demonstration of how to build streaming apps using SASjs",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "rsync -avhe ssh ./src/* --delete $SSH_ACCOUNT:$DEPLOY_PATH"
+  },
+  "keywords": [
+    "SAS",
+    "SASViya",
+    "SASjs"
+  ],
+  "author": "Allan Bowe",
+  "license": "ISC",
+  "dependencies": {
+    "@sasjs/cli": "^2.29.1",
+    "@sasjs/core": "^2.35.0"
+  }
+}
