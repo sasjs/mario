@@ -1,5 +1,5 @@
 node_modules/
 sasjsbuild/
-.env
+.env*
 
 sasjsresults/
