@@ -1,12 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/sasjs/utils/main/src/types/sasjsconfig-schema.json",
   "streamConfig": {
-    "assetPaths": [
-      "sprites"
-    ],
+    "assetPaths": [],
     "streamWeb": true,
     "streamWebFolder": "webv",
-    "webSourcePath": "src"
+    "webSourcePath": "src",
+    "streamServiceName": "clickme"
   },
   "defaultTarget": "viya",
   "targets": [
