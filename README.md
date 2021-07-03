@@ -1,6 +1,6 @@
 # Mario Game for SAS
 
-This is simply a SAS Streamed version of the following repo: https://github.com/sasjs/mario
+This is simply a SAS Streamed version of this [repo](https://github.com/reruns/mario) by [Garrett Johnson](https://www.linkedin.com/in/garretttjohnson/).
 
 The aim is to demonstrate the ease with which apps can be streamed in both SAS 9 and Viya.
 
