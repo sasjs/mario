@@ -1,7 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/sasjs/utils/main/src/types/sasjsconfig-schema.json",
   "streamConfig": {
-    "assetPaths": [],
     "streamWeb": true,
     "streamWebFolder": "webv",
     "webSourcePath": "src",
@@ -24,9 +23,6 @@
       "serverType": "SAS9",
       "serverUrl": "https://sas.analytium.co.uk:8343",
       "appLoc": "/Public/app/mario",
-      "buildConfig": {
-        "buildOutputFileName": "mysas9deploy.sas"
-      },
       "deployConfig": {
         "deployServicePack": true
       },
