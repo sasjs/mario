@@ -2,6 +2,8 @@
 
 This is simply a SAS Streamed version of this [repo](https://github.com/reruns/mario) by [Garrett Johnson](https://www.linkedin.com/in/garretttjohnson/).
 
+![](https://sasjs.io/img/mario.png)
+
 The aim is to demonstrate the ease with which apps can be streamed in both SAS 9 and Viya.
 
 To build the game, you first need to [install](https://cli.sasjs.io/installation) the SASjs CLI.
