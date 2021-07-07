@@ -10,7 +10,6 @@
   "targets": [
     {
       "name": "viya",
-      "serverUrl": "https://sas.analytium.co.uk",
       "serverType": "SASVIYA",
       "appLoc": "/Public/app/mario",
       "deployConfig": {
@@ -21,7 +20,6 @@
     {
       "name": "sas9",
       "serverType": "SAS9",
-      "serverUrl": "https://sas.analytium.co.uk:8343",
       "appLoc": "/Public/app/mario",
       "deployConfig": {
         "deployServicePack": true
