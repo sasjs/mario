@@ -10,19 +10,29 @@
   "targets": [
     {
       "name": "viya",
+      "serverUrl": "",
       "serverType": "SASVIYA",
+      "allowInsecureRequests": false,
       "appLoc": "/Public/app/mario",
+      "macroFolders": [],
+      "programFolders": [],
       "deployConfig": {
-        "deployServicePack": true
+        "deployServicePack": true,
+        "deployScripts": []
       },
       "contextName": "SAS Job Execution compute context"
     },
     {
       "name": "sas9",
+      "serverUrl": "",
       "serverType": "SAS9",
+      "allowInsecureRequests": false,
       "appLoc": "/Public/app/mario",
+      "macroFolders": [],
+      "programFolders": [],
       "deployConfig": {
-        "deployServicePack": true
+        "deployServicePack": true,
+        "deployScripts": []
       },
       "serverName": "SASApp",
       "repositoryName": "Foundation"
