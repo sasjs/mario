@@ -15,8 +15,8 @@
   "author": "Allan Bowe",
   "license": "ISC",
   "dependencies": {
-    "@sasjs/adapter": "^3.7.8",
-    "@sasjs/cli": "^2.39.0",
-    "@sasjs/core": "^4.13.0"
+    "@sasjs/adapter": "^3.7.11",
+    "@sasjs/cli": "^3.8.2",
+    "@sasjs/core": "^4.15.2"
   }
 }
