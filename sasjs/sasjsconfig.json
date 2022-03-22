@@ -6,7 +6,7 @@
     "webSourcePath": "src",
     "streamServiceName": "clickme"
   },
-  "defaultTarget": "viya",
+  "defaultTarget": "server",
   "targets": [
     {
       "name": "viya",
@@ -36,6 +36,22 @@
       },
       "serverName": "SASApp",
       "repositoryName": "Foundation"
+    },
+    {
+      "name": "server",
+      "serverUrl": "",
+      "serverType": "SASJS",
+      "appLoc": "/Public/app/mario",
+      "streamConfig": {
+        "streamWebFolder": "web",
+        "streamWeb": true,
+        "webSourcePath": "src",
+        "streamServiceName": "Mario",
+        "streamLogo": "mario.png"
+      },
+      "deployConfig": {
+        "deployServicePack": true
+      }
     }
   ]
 }
