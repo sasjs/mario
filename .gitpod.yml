@@ -1,8 +1,10 @@
 tasks:
-  - init: npm i -g @sasjs/cli
+  - init: npm install -g npm
+  - command: npm i -g @sasjs/cli && npm i
 
 image:
   file: .gitpod.dockerfile
 vscode:
   extensions:
     - sasjs.sasjs-for-vscode
+    - ritwickdey.liveserver
