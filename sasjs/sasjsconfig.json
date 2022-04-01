@@ -6,7 +6,7 @@
     "webSourcePath": "src",
     "streamServiceName": "clickme"
   },
-  "defaultTarget": "server",
+  "defaultTarget": "viya",
   "targets": [
     {
       "name": "viya",
