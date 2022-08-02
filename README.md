@@ -11,7 +11,7 @@ The release assets can be found [here](https://github.com/sasjs/mario/releases).
 
 * Viya - download the Viya Deployment and run in Studio.  Open the link at the end of the log.
 * SAS EBI - download the SAS 9 EBI Deployment, MODIFY THE APPLOC on line 2, then run in Studio or EG.  Open the link at the end of the log.
-* SASjs Server - download the SASjs Streamed App and import the zip file directly to AppStream.
+* [SASjs Server](https://server.sasjs.io) - download the SASjs Streamed App and import the zip file directly to AppStream.
 
 ## Build from Source
 To build the game, you first need to [install](https://cli.sasjs.io/installation) the SASjs CLI.
