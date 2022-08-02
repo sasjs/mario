@@ -1,10 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/sasjs/utils/main/src/types/sasjsconfig-schema.json",
   "streamConfig": {
+    "streamWebFolder": "web",
     "streamWeb": true,
-    "streamWebFolder": "webv",
     "webSourcePath": "src",
-    "streamServiceName": "clickme"
+    "streamServiceName": "Mario",
+    "streamLogo": "mario.png"
   },
   "defaultTarget": "viya",
   "targets": [
@@ -12,28 +13,14 @@
       "name": "viya",
       "serverUrl": "",
       "serverType": "SASVIYA",
-      "allowInsecureRequests": false,
       "appLoc": "/Public/app/mario",
-      "macroFolders": [],
-      "programFolders": [],
-      "deployConfig": {
-        "deployServicePack": true,
-        "deployScripts": []
-      },
       "contextName": "SAS Job Execution compute context"
     },
     {
       "name": "sas9",
       "serverUrl": "",
       "serverType": "SAS9",
-      "allowInsecureRequests": false,
       "appLoc": "/Public/app/mario",
-      "macroFolders": [],
-      "programFolders": [],
-      "deployConfig": {
-        "deployServicePack": true,
-        "deployScripts": []
-      },
       "serverName": "SASApp",
       "repositoryName": "Foundation"
     },
@@ -41,17 +28,7 @@
       "name": "server",
       "serverUrl": "",
       "serverType": "SASJS",
-      "appLoc": "/Public/app/mario",
-      "streamConfig": {
-        "streamWebFolder": "web",
-        "streamWeb": true,
-        "webSourcePath": "src",
-        "streamServiceName": "Mario",
-        "streamLogo": "mario.png"
-      },
-      "deployConfig": {
-        "deployServicePack": true
-      }
+      "appLoc": "/Public/app/mario"
     }
   ]
 }

@@ -15,8 +15,10 @@
   "author": "Allan Bowe",
   "license": "ISC",
   "dependencies": {
-    "@sasjs/adapter": "^3.7.11",
-    "@sasjs/cli": "^3.8.2",
-    "@sasjs/core": "^4.15.2"
+    "@sasjs/cli": "^3.15.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.4"
   }
 }
